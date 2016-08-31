@@ -33,12 +33,13 @@ Não use o repositório master em produção, ele é apenas para desenvolvimento
 	```
 	Isto criará uma cópia do Wpanel CMS em um diretório 'Blog'
 2. Crie uma base de dados MySql;
-3. Execute a instalação inicial acessando pelo navegador: http://seusite/index.php/setup;
-4. Informe os dados de conexão com a base de dados recém criada;
-5. Na tela seguinte, crie o usuário administrador inicial;
-6. Faça seu primeiro login no painel de controle;
-7. Na Dashboard do painel de controle, clique na opção 'Visualizar Site', o site de exemplo já deve estar funcionando.
-8. É recomendável que remova ou renomeie o modulo /app/modules/setup;
+3. Edite o arquivo app/config/config.php e defina a URL de sua aplicação. 
+4. Execute a instalação inicial acessando pelo navegador: http://seusite/index.php/setup;
+5. Informe os dados de conexão com a base de dados recém criada;
+6. Na tela seguinte, crie o usuário administrador inicial;
+7. Faça seu primeiro login no painel de controle;
+8. Na Dashboard do painel de controle, clique na opção 'Visualizar Site', o site de exemplo já deve estar funcionando.
+9. É recomendável que remova ou renomeie o modulo /app/modules/setup;
 
 #### Download do projeto
 
